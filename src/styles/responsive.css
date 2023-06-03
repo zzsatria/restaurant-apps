@@ -1,0 +1,72 @@
+/* Responsive Perangkat Seluler */
+@media screen and (max-width: 649px) {
+    .app-bar .nav-bar {
+        top: 14vh;
+        padding-top: 0;
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .app-bar {
+        grid-template-columns: 1fr auto;
+        padding: 8px 24px;
+    }
+
+    .app-bar .nav-bar ul {
+        font-size: 0.5em;
+    }
+
+    .app-bar .hamburger {
+        display: none;
+    }
+
+    .app-bar .nav-bar {
+        position: static;
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 36px;
+    }
+
+    .app-bar .nav-bar ul li {
+        display: inline-block;
+    }
+
+    .app-bar .nav-bar ul li a {
+        display: inline-block;
+        width: 100px;
+        text-align: center;
+        margin: 0;
+        font-size: 2em;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer p {
+        font-size: 16px;
+    }
+
+    .footer-links {
+        justify-content: center;
+    }
+
+    .footer-links li a {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+    .app-bar .logo {
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (min-width:850px) {}
+
+@media screen and (min-width: 1600px) {}
